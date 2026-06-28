@@ -6,7 +6,7 @@ import { Dashboard } from './views/Dashboard';
 import { ProjectsView } from './views/ProjectsView';
 import { ProjectDetail } from './views/ProjectDetail';
 import { useProjects } from './lib/hooks';
-import type { ProjectWithStats, ProjectStatus } from './lib/supabase';
+import type { ProjectWithStats, ProjectStatus } from 'supabase';
 
 type View = 'dashboard' | 'projects' | 'detail';
 
